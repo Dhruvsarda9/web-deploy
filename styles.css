@@ -1,0 +1,164 @@
+body{
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#logo{
+    width : 20%;
+    height : auto;
+    display: inline-flex;
+    text-align: left;
+}
+header{
+    /* background-color : #293f64; */
+    color: #293f64;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 1%;
+    display: flex;
+    padding-top: 0%;
+
+}
+
+nav{
+    text-align: right;
+    padding: 1%;
+    width: 70%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+}
+nav ul {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    
+}
+nav ul li{
+    text-align: right;
+    display: inline;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight: bold;
+}
+a:hover{
+    font-size: larger;
+}
+a{
+    color: #293f64;
+    text-decoration: none;
+}
+hr{
+    color: black;
+    font-weight: bold;
+    border-top: 2px solid #333;
+}
+.main{
+    padding: 1%;
+    padding-top: 0%;
+}
+#home-content{
+    padding: 1%;
+    padding-top: 0%;
+}
+#services-content{
+    padding: 1%;
+    padding-top: 0%;
+}
+#get-service-button{
+    cursor: pointer;
+    background-color: rgb(110, 102, 102);
+    color: white;
+}
+#get-service-button:hover{
+    font-size: medium;
+}
+#contact-content{
+    padding-left: 1%;
+    padding-right: 1%;
+    
+}
+.contact-form{
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+#name{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+    font-family :'Times New Roman', Times, serif;
+}
+
+#email{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width : 200px;
+    font-family :'Times New Roman', Times, serif;
+}
+#message{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height : 100px;
+    width : 200px;
+    font-family :'Times New Roman', Times, serif;
+}
+#submit-button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(12, 180, 12);
+    color: white;
+}
+#submit-button:hover{
+    font-size: medium;
+    background-color: green;
+}
+#about-us-content{
+    padding: 1%;
+    padding-top: 0%;
+}
+#about-us-content a{
+    color: blue;
+    text-decoration: underline;
+}
+#copyright{
+    text-align: center;
+    font-size :x-large;
+    font-weight: bold;
+}
+footer{
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color :#293f64;
+    color : white;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer a{
+    color : white;
+}
+#reach-us{  
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-top: 1%;    
+}
+#social-media{
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+#quick-links{
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+#mail{
+    width: 3%;
+    height:auto;
+}
+a:hover{
+    font-weight: bolder;
+}
